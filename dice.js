@@ -1,17 +1,47 @@
 function diceRoll(num, num2, Name1){
-    
+    console.log("this is how many sides: ", num, num2)
+    document.getElementById(Name1).innerHTML = numberMinMax(num, num2);
+
 }
 
-
+function d4(){
+    console.log("d4 button Clicked");
+    numberMinMax(1,4) // calls numberMinMax function below
+   // document.getElementById("d4").innerHTML= numberMinMax(1,4)
+}
 
 function d6(){
-    console.log("Button Clicked")
-    console.log("Die d6 clicked")
+    console.log("d6 button Clicked");
     numberMinMax(1,6) // calls numberMinMax function below
-    //document.getElementById("").innerHTML=numberMimMax(1,6)
+    //document.getElementById("").innerHTML= numberMinMax(1,6)
 }
+
+function d8(){
+    console.log("d8 button Clicked");
+    numberMinMax(1,8) // calls numberMinMax function below
+    //document.getElementById("").innerHTML= numberMinMax(1,6)
+}
+
+function d10(){
+    console.log("d10 button Clicked");
+    numberMinMax(1,10) // calls numberMinMax function below
+   // document.getElementById("d4").innerHTML= numberMinMax(1,4)
+}
+
+function d20(){
+    console.log("d20 button Clicked");
+    numberMinMax(1,20) // calls numberMinMax function below
+   // document.getElementById("d4").innerHTML= numberMinMax(1,4)
+}
+
+function d100(){
+    console.log("d% button Clicked");
+    numberMinMax(1,100) // calls numberMinMax function below
+   // document.getElementById("d4").innerHTML= numberMinMax(1,4)
+}
+
 function numberMinMax(min, max){
-    const diceRoll =Math.floor(Math.random()*(max - min +1)) +min
+    const diceRoll =Math.floor(Math.random()*(max - min +1)) +min;
     console.log(diceRoll)
     return(diceRoll)
 }
