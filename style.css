@@ -1,0 +1,31 @@
+header{
+    background-color: darkgrey;
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+nav{
+    background-color: gray;
+    padding: 1rem;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+}
+article{
+    background: green;
+    margin: 5px;
+}
+
+footer{
+    background-color: aqua;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+
+}
