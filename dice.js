@@ -7,37 +7,37 @@ function diceRoll(num, num2, Name1){
 function d4(){
     console.log("d4 button Clicked");
     numberMinMax(1,4) // calls numberMinMax function below
-   // document.getElementById("d4").innerHTML= numberMinMax(1,4)
+    document.getElementById("roll4").innerHTML= numberMinMax(1,4)
 }
 
 function d6(){
     console.log("d6 button Clicked");
     numberMinMax(1,6) // calls numberMinMax function below
-    //document.getElementById("").innerHTML= numberMinMax(1,6)
+    document.getElementById("roll6").innerHTML= numberMinMax(1,6)
 }
 
 function d8(){
     console.log("d8 button Clicked");
     numberMinMax(1,8) // calls numberMinMax function below
-    //document.getElementById("").innerHTML= numberMinMax(1,6)
+    document.getElementById("roll8").innerHTML= numberMinMax(1,6)
 }
 
 function d10(){
     console.log("d10 button Clicked");
     numberMinMax(1,10) // calls numberMinMax function below
-   // document.getElementById("d4").innerHTML= numberMinMax(1,4)
+    document.getElementById("roll10").innerHTML= numberMinMax(1,4)
 }
 
 function d20(){
     console.log("d20 button Clicked");
     numberMinMax(1,20) // calls numberMinMax function below
-   // document.getElementById("d4").innerHTML= numberMinMax(1,4)
+    document.getElementById("roll20").innerHTML= numberMinMax(1,4)
 }
 
 function d100(){
     console.log("d% button Clicked");
     numberMinMax(1,100) // calls numberMinMax function below
-   // document.getElementById("d4").innerHTML= numberMinMax(1,4)
+    document.getElementById("d4").innerHTML= numberMinMax(1,4)
 }
 
 function numberMinMax(min, max){
