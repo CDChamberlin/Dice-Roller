@@ -4,7 +4,17 @@ function diceRoll(num, num2, Name1){
 
 }
 
- function d4(){
+function numberMinMax(min, max){
+    const diceRoll =Math.floor(Math.random()*(max - min +1)) +min;
+    console.log(diceRoll)
+    return(diceRoll)
+}
+
+/*
+    Hard coded functions for practice changed to above to handle all five funtions in one.
+*/
+
+ /* function d4(){
     console.log("d4 button Clicked");
     numberMinMax(1,4) // calls numberMinMax function below
     document.getElementById("roll4").innerHTML= numberMinMax(1,4)
@@ -32,12 +42,4 @@ function d20(){
     console.log("d20 button Clicked");
     numberMinMax(1,20) // calls numberMinMax function below
     document.getElementById("roll20").innerHTML= numberMinMax(1,4)
-}
-
-
-function numberMinMax(min, max){
-    const diceRoll =Math.floor(Math.random()*(max - min +1)) +min;
-    console.log(diceRoll)
-    return(diceRoll)
-}
-
+} */
